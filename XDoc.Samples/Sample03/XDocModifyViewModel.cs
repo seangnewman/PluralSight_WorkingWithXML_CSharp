@@ -10,9 +10,9 @@ namespace XDoc.Samples.Sample03
     {
       XDocument doc =
         new XDocument(
-          new XDeclaration("1.0", "utf-8", "yes"),
-          new XComment("Customer Information"),
-          new XElement("Customers"));
+          new XDeclaration("1.0", "utf-8", "yes"),          // creates declaration, encoding, stand alone document
+          new XComment("Customer Information"),     // Create comment
+          new XElement("Customers"));                           // Create empty customer
 
       ResultText = doc.ToString();
     }
@@ -25,6 +25,8 @@ namespace XDoc.Samples.Sample03
         new XDocument(
           new XDeclaration("1.0", "utf-8", "yes"),
           new XComment("Customer Information"),
+
+          // Create the element
           new XElement("Customers",
             new XElement("Customer",
             new XElement("CustomerID", "1"),
