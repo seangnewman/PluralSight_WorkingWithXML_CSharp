@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDoc.Samples", "XDoc.Sample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeXML.Samples", "SerializeXML.Samples\SerializeXML.Samples.csproj", "{6D98B2E6-72FA-44BC-8C7D-CBA1D5EB889D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching.Samples", "Caching.Samples\Caching.Samples.csproj", "{086D079F-940A-4444-8B98-40210140469C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6D98B2E6-72FA-44BC-8C7D-CBA1D5EB889D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D98B2E6-72FA-44BC-8C7D-CBA1D5EB889D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D98B2E6-72FA-44BC-8C7D-CBA1D5EB889D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086D079F-940A-4444-8B98-40210140469C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086D079F-940A-4444-8B98-40210140469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086D079F-940A-4444-8B98-40210140469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086D079F-940A-4444-8B98-40210140469C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
